@@ -1,0 +1,162 @@
+a {
+  display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("bg.jpg");
+  background-attachment: fixed;
+}
+
+.back{
+  position: absolute;
+  top: 0%; 
+  left: 0%;
+  z-index: 10;
+  font-size: 40px;
+  color: white;
+
+}
+.full1img {
+  width: 100%;
+  height: 100vh;                 
+  background-image: url('2-1.jpg');
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat; }
+
+
+.sticker {
+  position: absolute;
+  top:8.5%; 
+  left: 13.2%;
+  width: 170px; 
+  z-index: 10; 
+  background: orange;
+}
+.sticker:hover {
+  filter: hue-rotate(-50deg) saturate(3);
+  transition: 0.3s;
+}
+.inbutton{
+  position: absolute;
+  top: 74%; 
+  left: 75.5%;
+  width: 160px; 
+  z-index: 10; 
+  background: orange;
+}
+
+.indoor{
+  position: absolute;
+  top: 16%; 
+  left: 49.4%;
+  width: 800  px; 
+  z-index: 10; 
+  background: orange;
+}
+.inball{
+  position: absolute;
+  top: 62.3%; 
+  left: 79%;
+  width: 820  px; 
+  z-index: 10; 
+  background: orange;
+}
+.inumbar{
+  position: absolute;
+  top: 56.5%; 
+  left: 78%;
+  width: 820  px; 
+  z-index: 10; 
+  background: orange;
+}
+.ininformation{
+  position: absolute;
+  top: 20.3%; 
+  left: 76.5%;
+  width: 820  px; 
+  z-index: 10; 
+  background: orange;
+}
+
+.inbutton:hover {
+  filter: hue-rotate(-50deg) saturate(3);
+  transition: 0.3s;
+}
+.indoor:hover {
+  filter: hue-rotate(-50deg) saturate(3);
+  transition: 0.3s;
+}
+.inball:hover {
+  filter: hue-rotate(-50deg) saturate(3);
+  transition: 0.3s;
+}
+.inumbar:hover {
+  filter: hue-rotate(-50deg) saturate(3);
+  transition: 0.3s;
+}
+.ininformation:hover {
+  filter: hue-rotate(-50deg) saturate(3);
+  transition: 0.3s;
+}
+@media screen and (max-width: 800px) {
+  .full1img {
+    width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block; }
+
+.sticker {
+  position: absolute;
+  top: 8.5%; 
+  left: 5%;
+  width: 100px; 
+  z-index: 10; 
+  background: orange;
+}
+.inbutton{
+  position: fixed;
+   position: absolute;
+  top: 48%; 
+  left: 86.4%;
+  width: 100px; 
+  z-index: 10; 
+  background: orange;
+}
+.indoor{
+  position: absolute;
+  top: 12%; 
+  left: 52.1%;
+  width: 800  px; 
+  z-index: 10; 
+  background: orange;
+}
+.inball{
+  position: absolute;
+  top: 39.5%; 
+  left: 91%;
+  width: 30px; 
+  z-index: 10; 
+  background: orange;
+}
+.inumbar{
+  position: absolute;
+  top: 36%; 
+  left: 89.2%;
+  width: 60px; 
+  z-index: 10; 
+  background: orange;
+}
+.ininformation{
+  position: absolute;
+  top: 15%; 
+  left: 87.5%;
+  width: 70px; 
+  z-index: 10; 
+  background: orange;
+}
+}
