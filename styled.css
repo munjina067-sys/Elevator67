@@ -39,7 +39,6 @@ body{
 }
 .sticker:hover {
   filter: hue-rotate(-50deg) saturate(3);
-  transition: 0.3s;
 }
 .inbutton{
   position: absolute;
@@ -89,19 +88,15 @@ body{
 }
 .indoor:hover {
   filter: hue-rotate(-50deg) saturate(3);
-  transition: 0.3s;
 }
 .inball:hover {
   filter: hue-rotate(-50deg) saturate(3);
-  transition: 0.3s;
 }
 .inumbar:hover {
   filter: hue-rotate(-50deg) saturate(3);
-  transition: 0.3s;
 }
 .ininformation:hover {
   filter: hue-rotate(-50deg) saturate(3);
-  transition: 0.3s;
 }
 @media screen and (max-width: 800px) {
   .full1img {
