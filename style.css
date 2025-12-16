@@ -68,8 +68,8 @@ a {
   top: 19%;
   bottom: 0%; 
   left: 27%;
-  width: 730px; /* 너 원하는 크기로 조절 */
-  z-index: 0; /* 배경보다 앞에 나오게 */
+  width: 730px; 
+  z-index: 0; 
   background: orange;
 
 }
