@@ -18,54 +18,50 @@ a {
 	position: absolute;
   top: 2.5%; 
   left: 38.8%;
-  width: 300px; /* 너 원하는 크기로 조절 */
-  z-index: 10; /* 배경보다 앞에 나오게 */
+  width: 300px; 
+  z-index: 10; 
   background: orange;
 
 }
 .small1-img:hover {
   filter: hue-rotate(-50deg) saturate(3);
-  transition: 0.3s;
 }
 
 .small2-img {
 	position: absolute;
   top: 29%; 
   left: 43.9%;
-  width: 70px; /* 너 원하는 크기로 조절 */
-  z-index: 10; /* 배경보다 앞에 나오게 */
+  width: 70px; 
+  z-index: 10; 
   background: orange;
 
 }
 .small2-img:hover {
-  filter: hue-rotate(-50deg) saturate(3);
-  transition: 0.3s;}
+  filter: hue-rotate(-50deg) saturate(3);}
 
 .small3-img {
 	position: absolute;
   top: 29%; 
   left: 49%;
-  width: 70px; /* 너 원하는 크기로 조절 */
-  z-index: 10; /* 배경보다 앞에 나오게 */
+  width: 70px; 
+  z-index: 10; 
   background: orange;
 
 }
 .small3-img:hover {
-  filter: hue-rotate(-50deg) saturate(3);
-  transition: 0.3s;}
+  filter: hue-rotate(-50deg) saturate(3);}
 
  .small4-img {
 	position: absolute;
   top: 82%; 
   left: 81%;
-  width: 88px; /* 너 원하는 크기로 조절 */
-  z-index: 10; /* 배경보다 앞에 나오게 */
+  width: 88px; 
+  z-index: 10; 
   background: orange;
 
 }
 .small4-img:hover {
-  filter: hue-rotate(-50deg) saturate(3);
-  transition: 0.3s;}
+  filter: hue-rotate(-50deg) saturate(3);}
 
 .small5-img {
   position: absolute;
@@ -107,15 +103,15 @@ a {
   position: absolute;
   top: 31.5%; 
   left: 41.5%;
-  width: 42px; /* 너 원하는 크기로 조절 */
-  z-index: 10; /* 배경보다 앞에 나오게 */
+  width: 42px; 
+  z-index: 10; 
 }
 .small3-img{
   position: absolute;
   top: 31.5%; 
   left: 49%;
-  width: 45px; /* 너 원하는 크기로 조절 */
-  z-index: 10; /* 배경보다 앞에 나오게 */
+  width: 45px; 
+  z-index: 10; 
 
 }
 
@@ -123,7 +119,7 @@ a {
   position: absolute;
   top: 64%; 
   left: 90%;
-  width: 70px; /* 너 원하는 크기로 조절 */
+  width: 70px; 
   z-index: 10; 
 
 }
@@ -133,6 +129,6 @@ a {
   bottom: -70%; 
   left: 21%;
   width: 420px; 
-  z-index: 10; 
+  z-index: 1s0; 
   }
 }
